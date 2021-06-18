@@ -2,8 +2,7 @@ import React from "react";
 import HomePageHeader from "./HomPageHeader";
 import Footer from "./Footer";
 function Home(){
-    return (
-        <>
+    return (<>
             <HomePageHeader/>
             <nav className="mt-1 "><span className="position-absolute text-white pl-1"><i
                 className="fas fa-volume-down"></i></span>

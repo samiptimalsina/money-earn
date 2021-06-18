@@ -15,9 +15,7 @@ function Register(){
         if(localStorage.getItem('user')){
             history.push('/home')
         }
-        else{
-            history.push('/login')
-        }
+
     });
 
     const onSubmit=(event)=>{
@@ -46,7 +44,7 @@ function Register(){
 
     return(
         <>
-            <Header/>
+            {/*<Header/>*/}
         <div className="container-fluid register_page" >
             <div className="row justify-content-center">
                 <div className="col-md-8">

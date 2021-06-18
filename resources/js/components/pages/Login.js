@@ -9,9 +9,11 @@ function Login(){
         if(localStorage.getItem('user')){
             history.push('/home')
         }
+
     },[]);
     const [customer_number,setCustomernum]=useState("");
     const [password,setPassword]=useState("");
+    const [error,setError]=useState("");
 
   const  onsubmit=(event)=>{
 
@@ -20,19 +22,28 @@ function Login(){
             customer_number:customer_number,
             password:password,
         }
-
-        axios.post('http://127.0.0.1:8000/api/login/',userData)
+        console.log(userData);
+        axios.post('http://127.0.0.1:8000/api/auth/login/',userData)
             .then(res=>{
                 console.log(res);
-            })
-
-
+            }).catch(err=>{
+            console.log(err.response.data);
+            setError(err.response.data);
+        })
     }
 
     return(
         <>
-        <Header/>
+        {/*<Header/>*/}
+        <br/>
+            {error?                 <>
+                    <div className="alert alert-danger container" role="alert">
+                        {error.error}
+                    </div>
+                </>:
+                <></>}
         <div>
+
             <div className="container-fluid register_page" >
                 <div className="row justify-content-center">
                     <div className="col-md-8">

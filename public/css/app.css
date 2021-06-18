@@ -10002,3 +10002,280 @@ h3 {
     border-color: #dee2e6;
   }
 }
+header{
+    /*height: 200px;*/
+    position: sticky;
+    width: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,81,121,0.9304096638655462) 31%, rgba(0,212,255,1) 100%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+nav{
+    width: 100%;
+}
+
+
+.member_btn{background-image:   linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,81,121,0.9304096638655462) 31%, rgba(0,212,255,1) 100%);}
+.member_btn {
+    border: 0px;
+    margin: 5px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    /*transition: 0.5s;*/
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    display: block;
+}
+
+.member_btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.footer_icon_color{
+    color:  #007991;
+
+}
+
+
+marquee {background-image:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,81,121,0.9304096638655462) 31%, rgba(0,212,255,1) 100%);}
+marquee{
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+/* single page css*/
+
+.order-grabbing{
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,81,121,0.9304096638655462) 31%, rgba(0,212,255,1) 100%);
+}
+.order-grabbing a span{
+    font-size: 30px;
+    color: #fff;
+}
+.single_page_wrapper{
+    background-color: 	#F8F8F8;
+}
+.single_page_wrapper article{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin-left: 5%;
+}
+.figure_caption{
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,81,121,0.9304096638655462) 31%, rgba(0,212,255,1) 100%);
+    border-bottom-right-radius:15px;
+    border-bottom-left-radius:15px;
+    color: #fff;
+}
+.single_round{
+    border-radius: 15px;
+    border: 1px solid  #007991;
+
+    /*border-image:linear-gradient(135deg, #007991 30%, #78ffd6 90%);*/
+
+}
+.order_grabing_btn{
+    min-width: 20%;
+
+}
+.order_grabing_btn span{
+    padding-right: 50px;
+    font-size: 24px;
+}
+
+.recharge_btn{
+    min-width:20%;
+
+}
+.recharge_btn span{
+    padding-right: 50px;
+    font-size: 24px;
+}
+
+
+.total_assets{
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 15px;
+    min-height: 280px;
+
+}
+.today_order{
+    background-color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 15px;
+    min-height: 280px;
+}
+
+.recharge_page{
+    background-color:#F8F8F8;
+}
+
+.wallet_rs_icon{
+    background-color: #fff;
+
+}
+.wallet_rs_icon span{
+    font-size: 24px;
+    color: #007991;
+}
+.recharge_page_btn{
+    padding: 10px 25px;
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,81,121,0.9304096638655462) 31%, rgba(0,212,255,1) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+
+.recharge_page_btn:hover {
+
+}
+.recharge{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+}
+.recharge_page_btn:focus {outline:0;}
+
+
+
+.btn_recharge{
+
+}
+.btn_recharge{
+    padding: 10px 25px;
+    border-radius: 100rem;
+    padding: 1rem;
+    width: 50%;
+    font-family: 'Avenir Next';
+    font-size: 1rem;
+    padding: .5rem 3rem;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+.btn_recharge:hover{
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+}
+.btn_recharge:focus {outline:0;}
+
+.btn_recharge:hover{
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background:linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+
+}
+
+/*progress baar*/
+
+.team_top_image img{
+    height: 500px;
+
+}
+.team_top_image .small{
+    position: absolute;
+    color: #fff;
+}
+.copy_text_div{
+    position: absolute;
+    bottom: 200px;
+
+}
+.copy_text{
+
+}
+.copy_text small{
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+.copy_text button{
+    border: none;
+    background: rgba(110, 213, 250, 0.93);
+    border-radius: 5px;
+}
+.copy_text button:focus{
+    outline: 0;
+}
+.team_size{
+    background-color: #ccc;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+.user{
+    font-size: 24px;
+    color: #007991;
+}
+.wallet{
+    font-size: 24px;
+    color: #007991;
+
+}
+.member_mission{
+    padding: 1px;
+    border-radius: 15px;
+    background-color:#ffe89d;
+    width: 100%;
+    padding-left: 15px;
+    margin-top: 10px;
+
+}
+.member_mission span{
+    font-size: 20px;
+    color: orange;
+}
+
+.level{
+    width: 100%;
+    background-color: #8ac8ff;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding-left: 15px;
+}
+.level  p{
+    background-color: #007991;
+    padding: 4px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.level p span{
+    font-size: 18px;
+    color: #fff;
+    padding-left: 10px;
+}
+.active, .recharge_page_btn:hover {
+    box-shadow: none;
+    color: white;
+}
+
